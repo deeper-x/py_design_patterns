@@ -20,7 +20,6 @@ class MetaSQL(type):
 
             return res
 
-        # Add the new method to the class
         new_cls.query = query
 
         return new_cls
